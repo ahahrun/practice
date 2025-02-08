@@ -24,7 +24,6 @@ function main() {
         }
     }
 }
-
 function logic(guessNum, compNum) {
     if (guessNum > compNum) {
         return `Number is less than ${guessNum}`;
